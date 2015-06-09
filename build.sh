@@ -5,6 +5,10 @@ if [[ -z $1 ]]; then
   exit 1
 fi
 
+containername=$1
+
+set -e
+
 # Prepare binary
 ./activator clean stage
 
