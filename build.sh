@@ -13,7 +13,7 @@ set -e
 ./activator clean stage
 
 # copy to the container folder
-mkdir ./container/stage
+mkdir -p ./container/stage
 
 cp -r 										  \
   ./target/universal/stage  \
