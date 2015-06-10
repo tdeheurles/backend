@@ -1,7 +1,3 @@
-#! /bin/bash
-
-set -e
-
 # Prepare binary
 ./activator clean stage
 
