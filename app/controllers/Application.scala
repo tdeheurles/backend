@@ -5,6 +5,6 @@ import play.api.mvc._
 object Application extends Controller {
 
   def index = Action {
-    Ok("First message")
+    Ok("Second message")
   }
 }
