@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:7
 ADD stage /backend/
 EXPOSE 2500
 CMD chmod u+x /backend/bin
